@@ -1,0 +1,100 @@
+<!-- suites.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suítes - Terra Madre Pousada Ilhabela</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Terra Madre Pousada Ilhabela"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#vantagens">VANTAGENS</a></li>
+                <li><a href="suites.html">SUÍTES</a></li>
+                <li><a href="#reserva">RESERVE JÁ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="suites-page">
+        <!-- Suíte 1 -->
+        <section class="suite-individual">
+            <img src="img/suite 1.png" alt="O Refúgio da Sereia">
+            <div class="suite-text">
+                <h3>Suite 1: O Refúgio da Sereia</h3>
+                <p>Um santuário de luxo e romance, esta suíte é dominada por uma cabeceira majestosa em formato de concha. As paredes apresentam um mural suave de corais e peixes tropicais, com a paleta em degradê dos azuis marinhos e celestes. A banheira de imersão, revestida em mosaico azul escama, convida ao relaxamento. A varanda privativa oferece uma vista deslumbrante do oceano, ideal para casais. <strong>R$ 1.250,00 por noite.</strong></p>
+                <a href="#reserva" class="btn-reserve">RESERVE JÁ</a>
+            </div>
+        </section>
+
+        <!-- Suíte 2 -->
+        <section class="suite-individual">
+            <img src="img/suite 2.png" alt="O Esconderijo do Polvo">
+            <div class="suite-text">
+                <h3>Suite 2: O Esconderijo do Polvo</h3>
+                <p>Perfeita para quem busca conforto e um toque de mistério. Esta suíte apresenta uma decoração mais profunda e intensa, com tons de azul que remetem ao fundo do mar. A arte de parede sutilmente exibe tentáculos e a graça do polvo. O destaque é a área de descanso, que evoca a sensação de estar com móveis rústicos de madeira e uma rede de descanso, que evoca a sensação de estar em um navio antigo de luxo. <strong>R$ 980,00 por noite.</strong></p>
+                <a href="#reserva" class="btn-reserve">RESERVE JÁ</a>
+            </div>
+        </section>
+
+        <!-- Suíte 3 -->
+        <section class="suite-individual">
+            <img src="img/suite 3.png" alt="O Santuário do Cavalo-Marinho">
+            <div class="suite-text">
+                <h3>Suite 3: O Santuário do Cavalo-Marinho</h3>
+                <p>Uma suíte charmosa e vibrante, perfeita para uma experiência leve e revigorante. A decoração utiliza os tons de azul mais claros e vibrantes do recife, com detalhes delicados de cavalos-marinhos e estrelas-do-mar em almofadas e obras de arte. Possui uma iluminação natural abundante e uma sacada com mesa e cadeiras, ideal para o café da manhã com a brisa do mar. <strong>R$ 750,00 por noite.</strong></p>
+                <a href="#reserva" class="btn-reserve">RESERVE JÁ</a>
+            </div>
+        </section>
+
+        <!-- Formulário de Reserva -->
+        <section id="reserva" class="reserva-back">
+            <article class="reserva-form">
+            <h2>RESERVE JÁ</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>CHECK-IN</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>CHECK-OUT</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label>HÓSPEDES</label>
+                        <select required>
+                            <option value="" disabled selected></option>
+                            <option>1 adulto</option>
+                            <option>2 adultos</option>
+                            <option>2 adultos + 1 criança</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>SUÍTE</label>
+                        <select required>
+                            <option value="" disabled selected></option>
+                            <option>Suite 1: O Refúgio da Sereia</option>
+                            <option>Suite 2: O Esconderijo do Polvo</option>
+                            <option>Suite 3: O Santuário do Cavalo-Marinho</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn-reserve big">RESERVE JÁ</button>
+            </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>ENDEREÇO • R. Antenor Custódio da Silva, 80 - Cocaia, Ilhabela - SP, 11630-000 BRASIL</p>
+        <p><img src="img/logowhats.png" alt="WhatsApp"> (12) 99999-9999</p>
+    </footer>
+</body>
+</html>
